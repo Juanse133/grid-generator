@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/components/HeaderComponent.css";
+import logo from "../Logo.png";
 
 const HeaderComponent = () => {
     return (
@@ -7,7 +8,7 @@ const HeaderComponent = () => {
             <div className="header-container">
                 <div className="logo-container">
                     <a href="/">
-                        <img src="../../Logo.png" alt="Logo Grid Generator" />
+                        <img src={logo} alt="Logo Grid Generator" />
                     </a>
                 </div>
                 <div className="navbar-container">
