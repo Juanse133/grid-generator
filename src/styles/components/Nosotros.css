@@ -1,0 +1,29 @@
+.nosotros-container {
+    padding: 4.625rem 0;
+}
+
+.nosotros-col {
+    display: flex;
+    justify-content: center;
+    column-gap: 15rem;
+    padding-top: 1.5rem;
+}
+
+.nosotros-container img {
+    max-width: 11.4375rem;
+    border-radius: 50%;
+}
+
+.nosotros-container p {
+    max-width: 11.4375rem;
+}
+
+@media (max-width: 64rem) {
+    .nosotros-col {
+        column-gap: 1.5rem;
+    }
+
+    .nosotros-container img {
+        max-width: 6.25rem;
+    }
+}

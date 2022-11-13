@@ -1,0 +1,19 @@
+.ayuda-container {
+    padding: 4.625rem 0;
+}
+
+.ayuda-container img {
+    max-width: 100px;
+    height: auto;
+}
+
+.ayuda-container p {
+    margin: 0 auto;
+    max-width: 60rem;
+}
+@media (max-width: 64rem) {
+    .ayuda-container p {
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+}
