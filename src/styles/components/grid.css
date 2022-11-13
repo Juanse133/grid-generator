@@ -1,0 +1,16 @@
+.grid-container {
+    padding: 9.25rem 0 4.625rem;
+    background: #007dc847;
+}
+
+.grid-container table {
+    margin: 0 auto;
+}
+
+.grid-container td {
+    border: 1px solid #007bc8b6;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    background: white;
+}
