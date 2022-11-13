@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/grid-generator/static/css/main.2b8b7b37.css",
-    "main.js": "/grid-generator/static/js/main.9bd08dac.js",
+    "main.js": "/grid-generator/static/js/main.cc8964a0.js",
     "static/js/787.a7abae19.chunk.js": "/grid-generator/static/js/787.a7abae19.chunk.js",
     "static/media/jj.png": "/grid-generator/static/media/jj.c7b8b73b124f8bac2898.png",
     "static/media/js.png": "/grid-generator/static/media/js.9042e9feefc33fc7f888.png",
+    "static/media/Logo.png": "/grid-generator/static/media/Logo.56569e7663dfb2720fef.png",
     "index.html": "/grid-generator/index.html",
     "main.2b8b7b37.css.map": "/grid-generator/static/css/main.2b8b7b37.css.map",
-    "main.9bd08dac.js.map": "/grid-generator/static/js/main.9bd08dac.js.map",
+    "main.cc8964a0.js.map": "/grid-generator/static/js/main.cc8964a0.js.map",
     "787.a7abae19.chunk.js.map": "/grid-generator/static/js/787.a7abae19.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b8b7b37.css",
-    "static/js/main.9bd08dac.js"
+    "static/js/main.cc8964a0.js"
   ]
 }
