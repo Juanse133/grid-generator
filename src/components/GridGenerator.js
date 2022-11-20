@@ -71,6 +71,7 @@ const GridGenerator = () => {
                     );
             });
         });
+        console.log(selectedCells);
     }, [
         selectedCells,
         numberOfCols,
@@ -111,9 +112,15 @@ const GridGenerator = () => {
     };
     let index = 0;
     let htmlCode = "";
-    selectedCells.forEach(() => {
+    let cssCode = "";
+
+    selectedCells.forEach((element) => {
         index++;
         htmlCode += `\n    <div class="div${index}"></div>`;
+
+        cssCode += `.div${index} { grid-area: ${element[0] + 1} / ${
+            element[1] + 1
+        } / ${element[0] + 2} / ${element[1] + 2} }\n`;
     });
     return (
         <div className="grid-container">
@@ -167,6 +174,7 @@ const GridGenerator = () => {
                 style={customStyles}
             >
                 <h1>CSS</h1>
+                <pre>{`.parent{\n   display: grid;\n}\n\n${cssCode}`}</pre>
             </Modal>
         </div>
     );
