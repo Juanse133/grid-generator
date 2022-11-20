@@ -62,6 +62,8 @@ const GridGenerator = () => {
 
     useEffect(() => {
         waitForElm(".table").then((elm) => {
+            let index = 0;
+
             selectedCells.forEach((element) => {
                 document
                     .querySelector("table")
@@ -69,6 +71,10 @@ const GridGenerator = () => {
                         "class",
                         "element"
                     );
+                index++;
+                document.querySelector("table").rows[element[0]].cells[
+                    element[1]
+                ].innerText = `div${index}`;
             });
         });
         console.log(selectedCells);
