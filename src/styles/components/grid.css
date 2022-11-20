@@ -3,23 +3,32 @@
     background: #007dc847;
     display: grid;
     grid-template-columns: 0.5fr 2fr 1fr;
-    grid-template-rows: 0.2fr 1fr;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
 
 .grid-container table {
     margin: 0 auto;
-    width: 800px;
-    height: 400px;
+    width: 50rem;
+    height: 25rem;
 }
 
 .grid-container td {
     border: 1px solid #007bc8b6;
     text-align: center;
+    transition: transform 0.2s;
+    background-size: 0% 100%;
     background: white;
 }
 
+.grid-container td:hover {
+    transform: scale(1.05);
+}
+
+.grid-container .element {
+    background: rgba(255, 187, 0, 0.616);
+}
 .container-columnas {
     grid-area: 1 / 2 / 2 / 3;
     align-self: center;
@@ -33,4 +42,30 @@
 .container-filas {
     grid-area: 2 / 3 / 3 / 4;
     align-self: center;
+}
+
+.show-code-buttons {
+    grid-area: 3 / 3 / 4 / 4;
+    align-self: center;
+}
+
+.show-code-buttons button {
+    display: block;
+    margin: 0.3125rem auto;
+}
+
+.reset-button {
+    grid-area: 3 / 2 / 4 / 3;
+    align-self: center;
+}
+
+.ReactModal__Overlay--after-open {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.grid-container button {
+    width: 75px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #007bc8b6;
 }
