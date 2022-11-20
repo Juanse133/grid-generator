@@ -9,7 +9,8 @@
 
 .ayuda-container p {
     margin: 0 auto;
-    max-width: 60rem;
+    max-width: 43.75rem;
+    text-align: justify;
 }
 @media (max-width: 64rem) {
     .ayuda-container p {

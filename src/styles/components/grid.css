@@ -80,3 +80,12 @@
         table-layout: fixed;
     }
 }
+
+@media (max-width: 64em) {
+    .grid-container table {
+        margin: 0 auto;
+        width: 21.875rem;
+        height: 10.9375rem;
+        table-layout: fixed;
+    }
+}
