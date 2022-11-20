@@ -1,16 +1,36 @@
 .grid-container {
     padding: 9.25rem 0 4.625rem;
     background: #007dc847;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
 .grid-container table {
     margin: 0 auto;
+    width: 800px;
+    height: 400px;
 }
 
 .grid-container td {
     border: 1px solid #007bc8b6;
-    width: 200px;
-    height: 100px;
     text-align: center;
     background: white;
+}
+
+.container-columnas {
+    grid-area: 1 / 2 / 2 / 3;
+    align-self: center;
+}
+
+.table {
+    grid-area: 2 / 2 / 3 / 3;
+    align-self: center;
+}
+
+.container-filas {
+    grid-area: 2 / 3 / 3 / 4;
+    align-self: center;
 }
